@@ -1,0 +1,32 @@
+
+/*Media queries*/
+@media screen and (min-width:0px) and (max-width:500px) {
+    header#encabezado {
+        background-color: black;
+        color: pink;
+    }
+}
+@media screen and (min-width:501px) and (max-width:800px) {
+    header#encabezado {
+        background-color: red;
+        color: lavenderblush;
+    }
+}
+@media screen and (min-width:801px) and (max-width:900px) {
+    header#encabezado {
+        background-color: green;
+        color:purple;
+    }
+}
+@media screen and (min-width:901px) and (max-width:1000px) {
+    header#encabezado {
+        background-color: gold;
+        color: black;
+    }
+}
+@media screen and (min-width:1001px) {
+    header#encabezado {
+        background-color: blue;
+        color: gold;
+    }
+}
